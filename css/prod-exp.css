@@ -1,0 +1,195 @@
+.top {
+}
+.prod {
+}
+.top__title {
+}
+.prod__title {
+	background: url(https://kraski-net.ru/wp-content/uploads/2021/02/Benzin.jpg) no-repeat center;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.top__text {
+}
+.prod__text {
+	background-color: rgb(60, 60, 90);
+}
+
+.products {
+	margin: 0px 5px 20px 5px;
+	border: rgb(193, 193, 230);
+	background-color: rgb(150, 150, 199);
+}
+.products__title {
+	margin-bottom: 10px;
+}
+.products__title h2 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+}
+.products__row {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.products__item {
+	border: 2px solid rgb(193, 193, 230);
+	padding: 25px;
+	margin-bottom: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.products__item:hover {
+	background-color: rgb(193, 193, 230);
+	transition: 0.5s;
+}
+.product__image {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: center;
+	
+	
+}
+.product__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.product__name {
+
+}
+.product__name p {
+	text-align: center;
+	font-size: 20px;
+}
+.expertise {
+	margin: 0px 5px 20px 5px;
+	background-color: rgb(150, 150, 199);
+}
+.expertise__title h2 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+}
+.expertise__row {
+	width: 70%;
+	padding-bottom: 5px;
+
+	margin: 0 auto;
+}
+.expertise__item {
+	display: flex;
+	margin-bottom: 5px;
+	border: 2px solid rgb(193, 193, 230);
+	padding: 5px;
+}
+.expertise__item:hover {
+	background-color: rgb(193, 193, 230);
+	transition: 0.5s;
+}
+.expertise__item:last-child {
+	/* margin-bottom: 0px; */
+}
+.expertise__icon {
+	width: 70px;
+	height: 70px;
+	margin-right: 10px;
+	
+	/* border: 2px solid red; */
+}
+.expertise__icon img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.expertise__text {
+	display: flex;
+	align-items: center;
+}
+.expertise__text p {
+}
+.expertise__icon {
+}
+
+/* @media (max-width: 770px)
+@media (max-width: 602px)
+@media (max-width: 482px)
+@media (max-width: 322px) */
+@media (max-width: 770px) {
+	.products__title h2,
+	.expertise__title h2 {
+		font-size: 30px;
+	}
+	.expertise__text p {
+		font-size: 13px;
+	}
+	.product__image {
+		width: 60px;
+		height: 60px;
+		
+	}
+	.product__name p {
+		text-align: center;
+		font-size: 15px;
+		width: 100px;
+		
+	}
+}
+@media (max-width: 602px) {
+	.products__row {
+
+	}
+}
+@media (max-width: 482px) {
+	.products__title h2,
+	.expertise__title h2 {
+		font-size: 20px;
+	}
+	.expertise__text p {
+		font-size: 11px;
+	}
+	.expertise__row {
+		width: 100%;
+		padding: 5px;
+		
+		
+	}
+	.products__item {
+		padding: 10px;
+	}
+	.product__image {
+		width: 40px;
+		height: 40px;
+		
+		/* padding: 15px; */
+	}
+	.product__name p {
+		text-align: center;
+		font-size: 13px;
+		width: 100px;
+		
+	}
+	/* .expertise__icon {
+		width: 50px;
+		height: 50px;
+		margin-right: 10px;
+		border: 2px solid red;
+	} */
+}
+
+@media (max-width: 320px) {
+	.products__title h2,
+	.expertise__title h2 {
+		font-size: 18px;
+	}
+	.expertise__text p {
+		font-size: 10px;
+	}
+}

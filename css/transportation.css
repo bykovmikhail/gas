@@ -1,0 +1,58 @@
+/* background: url(https://financialtribune.com/sites/default/files/field/image/17january/05_opec_400_5.jpg) no-repeat center;
+
+*/
+
+.transport {
+}
+.transport__title {
+	background: url(https://financialtribune.com/sites/default/files/field/image/17january/05_opec_400_5.jpg) no-repeat
+		center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.transport__text {
+	background-color: rgb(111, 98, 86);
+}
+
+
+
+.transportation {
+	/* border: 2px solid red; */
+	margin: 5px;
+	background-color: rgb(155, 141, 128);
+
+}
+.transportation__title {
+}
+.transportation__title h2 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+}
+.transportation__item {
+	display: flex;
+	align-items: center;
+	border: 2px solid red;
+	border: 2px solid rgb(195, 178, 163);
+	margin: 5px;
+	padding: 5px;
+}
+.transportation__item:hover {
+	background-color: rgb(195, 178, 163);
+	transition: 0.5s;
+}
+
+.transportation__icon {
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+}
+.transportation__icon img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.transportation__text {
+}

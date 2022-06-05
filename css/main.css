@@ -55,7 +55,7 @@ html {
 	width: 70%;
 	background: url(/images/track-1.jpg) no-repeat center;
 	 background-size: cover;
-	 border: 2px solid rgb(0, 26, 255);
+	
 	 display: flex;
 	 justify-content: center;
 	align-items: center;
@@ -68,7 +68,7 @@ html {
 }
 .top__text {
 	width: 30%;
-	border: 2px solid rgb(0, 26, 255);
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
