@@ -10,6 +10,16 @@
 	font-size: 30px;
 	font-weight: bold;
  }
+ @media (max-width: 480px) {
+	.header h1 {
+		font-size: 20px;
+	}
+ }
+ @media (max-width: 320px) {
+	.header h1 {
+		font-size: 15px;
+	}
+ }
  
  .main {
 	/* background-color: #fafafa; */
@@ -20,4 +30,35 @@
  .footer {
 	background-color: #212429;
 	flex: 0 0 auto;
+	padding: 5px;
+ }
+ .footer__contacts {
+}
+.footer__company-name {
+}
+.footer__company-name p {
+	text-align: center;
+}
+
+.footer__office {
+}
+
+.footer__office p {
+	text-align: center;
+}
+@media (max-width: 480px) {
+	.footer__company-name p {
+		font-size: 15px;
+	}
+	.footer__office p {
+		font-size: 13px;
+	}
+ }
+ @media (max-width: 320px) {
+	.footer__company-name p {
+		font-size: 11px;
+	}
+	.footer__office p {
+		font-size: 10px;
+	}
  }
