@@ -22,13 +22,17 @@
 }
 
 .contact__text {
+	background-color: rgb(146, 148, 104);
 }
 
 
 .contacts {
-	border: 2px solid red;
+	
 	margin: 5px;
+	padding: 5px;
 	margin-bottom: 10px;
+	background-color: rgb(194, 197, 137);
+	
 }
 .contacts h2 {
 	font-size: 40px;
@@ -38,18 +42,24 @@
 .contact__office {
 	display: flex;
 	justify-content: center;
+	
 }
 .contact__office h3 {
 	font-weight: 700;
 }
 .office {
 	margin-right: 50px;
+	padding: 5px;
+	border: 2px solid rgb(232, 236, 171);
+	
 }
 .office__title {
 }
 .office__text {
 }
 .head {
+	padding: 5px;
+	border: 2px solid rgb(232, 236, 171);
 }
 .head__title {
 }
@@ -60,10 +70,11 @@
 .contact-mail {
 	padding: 5px;
 	margin-bottom: 10px;
-	border: 2px solid red;
+	
 	width: 40%;
 	margin: 0 auto;
 	margin-bottom: 10px;
+	background-color: rgb(194, 197, 137);
 }
 .contact-mail h3{
 	font-size: 20px;
@@ -79,10 +90,11 @@
 
 
 .form-button {
-	border: 2px solid red;
+	
 	width: 40%;
 	margin: 0 auto;
 	padding: 5px;
+	background-color: rgb(194, 197, 137);
 }
 .form-button-title {
 }
@@ -93,12 +105,24 @@
 
 button[name="button"] {
 	display: block;
+	font-weight: 700;
 	width: 80%;
 	height: 50px;
 	margin: 0 auto;
+	border: 2px solid rgb(232, 236, 171);
+	background-color: rgb(188, 186, 186);
 	/* border: 1px solid transparent;
 	border-radius: 15px; */
 }
+button[name="button"]:hover {
+	background-color: rgb(73, 73, 73);
+	color:white;
+	transition: 0.3s;
+}
+/* button[name="button"]:focus{
+	background-color: rgb(113, 15, 15);
+	color: rgb(152, 163, 31);
+} */
 
 .form {
 	display: none;
@@ -111,16 +135,39 @@ input[name="name"] {
 button[name="submit"],
 button[name="reset"] {
 	padding: 5px 15px;
+	font-weight: 700;
+	
 }
+button[name="submit"] {
+	background-color: rgb(108, 104, 104);
+	color: white;
+}
+button[name="submit"]:hover{
+	background-color: rgb(132, 132, 132);
+}
+
+button[name="reset"] {
+	background-color: rgb(51, 50, 50);
+	color: white;
+}
+button[name="reset"]:hover{
+	background-color: rgb(28, 27, 27);
+	color: rgb(253, 5, 5);
+}
+
+
+
 textarea[name="textarea"] {
 	width: 50%;
 }
 
 .active {
-	border: 2px solid red;
+	
 	margin: 5px;
 	padding: 5px;
 	display: block;
+	background-color: rgb(194, 197, 137);
+	
 }
 
  
