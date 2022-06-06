@@ -1,0 +1,127 @@
+
+.contact {
+	
+	
+	 
+}
+
+.contact__title {
+	background: url(https://altarena.ru/wp-content/uploads/2019/11/714879.jpg) no-repeat center;
+	background-size: 100%;
+}
+@media (max-width: 640px) {
+	.contact__title {
+		background-size: 130%;
+	}
+}
+
+@media (max-width: 250px) {
+	.contact__title {
+		background-size: 170%;
+	}
+}
+
+.contact__text {
+}
+
+
+.contacts {
+	border: 2px solid red;
+	margin: 5px;
+	margin-bottom: 10px;
+}
+.contacts h2 {
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+}
+.contact__office {
+	display: flex;
+	justify-content: center;
+}
+.contact__office h3 {
+	font-weight: 700;
+}
+.office {
+	margin-right: 50px;
+}
+.office__title {
+}
+.office__text {
+}
+.head {
+}
+.head__title {
+}
+.head__text {
+}
+
+
+.contact-mail {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 2px solid red;
+	width: 40%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.contact-mail h3{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.contact-mail a{
+	color: #3f3f3f;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+
+.form-button {
+	border: 2px solid red;
+	width: 40%;
+	margin: 0 auto;
+	padding: 5px;
+}
+.form-button-title {
+}
+.form-button-title h3 {
+	text-align: center;
+	padding: 5px;
+}
+
+button[name="button"] {
+	display: block;
+	width: 80%;
+	height: 50px;
+	margin: 0 auto;
+	/* border: 1px solid transparent;
+	border-radius: 15px; */
+}
+
+.form {
+	display: none;
+}
+input[name="mail"],
+input[name="name"] {
+	padding: 5px;
+	margin-bottom: 5px;
+}
+button[name="submit"],
+button[name="reset"] {
+	padding: 5px 15px;
+}
+textarea[name="textarea"] {
+	width: 50%;
+}
+
+.active {
+	border: 2px solid red;
+	margin: 5px;
+	padding: 5px;
+	display: block;
+}
+
+ 
+
