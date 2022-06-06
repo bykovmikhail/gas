@@ -56,3 +56,38 @@
 }
 .transportation__text {
 }
+
+
+
+@media (max-width: 770px) {
+	.transportation__title h2 {
+		font-size: 30px;
+	}
+	.transportation__text p {
+		font-size: 13px;
+	}
+	
+}
+
+@media (max-width: 482px) {
+	.transportation__title h2 {
+		font-size: 20px;
+	}
+	.transportation__text p {
+		font-size: 11px;
+	}
+	.transportation__item {
+		height: 80px;
+	}
+	
+}
+
+@media (max-width: 320px) {
+	.transportation__title h2 {
+		font-size: 18px;
+	}
+	.transportation__text p {
+		font-size: 10px;
+	}
+	
+}

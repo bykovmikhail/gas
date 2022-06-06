@@ -142,11 +142,11 @@
 		
 	}
 }
-@media (max-width: 602px) {
+/* @media (max-width: 602px) {
 	.products__row {
 
 	}
-}
+} */
 @media (max-width: 482px) {
 	.products__title h2,
 	.expertise__title h2 {
