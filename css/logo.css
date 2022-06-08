@@ -16,3 +16,15 @@
 	height: 100%;
 	object-fit: contain;
  }
+ @media (max-width: 602px) {
+	.logo {
+		width: 50px;
+		height: 50px;
+	}
+ }
+ @media (max-width:322px) {
+	.logo {
+		width: 40px;
+		height: 40px;
+	}
+ }

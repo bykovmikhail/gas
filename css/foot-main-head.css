@@ -3,6 +3,16 @@
 	background-color: #8b0707;
 	margin-top: 75px;
  }
+ @media (max-width: 602px) {
+	.header {
+		margin-top: 50px;
+	}
+ }
+ @media (max-width:322px) {
+	.header {
+		margin-top: 40px;
+	}
+ }
  
  .header h1 {
 	text-align: center;

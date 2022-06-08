@@ -77,6 +77,20 @@ body {
   height: 75px;
   background: #1c4917;
 }
+@media (max-width: 602px) {
+  .navbar {
+    height: 50px;
+  }
+}
+@media (max-width:322px) {
+  .navbar {
+    height: 40px;
+  }
+}
+/* @media (max-width: 770px)
+@media (max-width: 602px)
+@media (max-width: 482px)
+@media (max-width: 322px) */
 
 .navbar__wrap {
   display: flex;

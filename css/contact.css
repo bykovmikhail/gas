@@ -1,10 +1,13 @@
 
 .contact {
 	
-	
-	 
 }
 
+@media (max-width: 482px) {
+	.contact {
+		height: 240px;
+	}
+}
 .contact__title {
 	background: url(https://altarena.ru/wp-content/uploads/2019/11/714879.jpg) no-repeat center;
 	background-size: 100%;
@@ -22,7 +25,9 @@
 }
 
 .contact__text {
-	background-color: rgb(146, 148, 104);
+	background-color: rgb(71, 73, 95);
+	
+	
 }
 
 
@@ -31,7 +36,7 @@
 	margin: 5px;
 	padding: 5px;
 	margin-bottom: 10px;
-	background-color: rgb(194, 197, 137);
+	background-color: rgb(136, 140, 194);
 	
 }
 .contacts h2 {
@@ -50,8 +55,13 @@
 .office {
 	margin-right: 50px;
 	padding: 5px;
-	border: 2px solid rgb(232, 236, 171);
+	border: 2px solid rgb(170, 174, 237);
+	min-width: 80px;
 	
+}
+.office:hover{
+	background-color: rgb(170, 174, 237);
+	transition: 0.3s;
 }
 .office__title {
 }
@@ -59,7 +69,12 @@
 }
 .head {
 	padding: 5px;
-	border: 2px solid rgb(232, 236, 171);
+	border: 2px solid rgb(170, 174, 237);
+	min-width: 80px;
+}
+.head:hover{
+	background-color: rgb(170, 174, 237);
+	transition: 0.3s;
 }
 .head__title {
 }
@@ -74,8 +89,9 @@
 	width: 40%;
 	margin: 0 auto;
 	margin-bottom: 10px;
-	background-color: rgb(194, 197, 137);
+	background-color: rgb(136, 140, 194);
 }
+
 .contact-mail h3{
 	font-size: 20px;
 	text-align: center;
@@ -87,6 +103,10 @@
 	font-size: 25px;
 	text-decoration: underline;
 }
+.contact-mail a:hover{
+	color: #1c1c1c;
+	font-weight: 700;
+}
 
 
 .form-button {
@@ -94,7 +114,7 @@
 	width: 40%;
 	margin: 0 auto;
 	padding: 5px;
-	background-color: rgb(194, 197, 137);
+	background-color: rgb(136, 140, 194);
 }
 .form-button-title {
 }
@@ -109,7 +129,7 @@ button[name="button"] {
 	width: 80%;
 	height: 50px;
 	margin: 0 auto;
-	border: 2px solid rgb(232, 236, 171);
+	border: 1px solid rgb(170, 174, 237);
 	background-color: rgb(188, 186, 186);
 	/* border: 1px solid transparent;
 	border-radius: 15px; */
@@ -166,9 +186,70 @@ textarea[name="textarea"] {
 	margin: 5px;
 	padding: 5px;
 	display: block;
-	background-color: rgb(194, 197, 137);
+	background-color: rgb(136, 140, 194);
 	
 }
+/* @media (max-width: 770px)
+@media (max-width: 602px)
+@media (max-width: 482px)
+@media (max-width: 322px) */
 
- 
+@media (max-width: 770px) {
+	.contacts h2 {
+		font-size: 30px;
+		
+	}
+	.office__title h3,
+	.head__title h3 {
+		font-size: 13px;
+	}
+	.office__text p,
+	.head__text p {
+		font-size: 11px;
+	}
+	.contact-mail h3 {
+font-size: 12px;
+	}
+	.contact-mail a {
+		font-size: 20px;
+
+	}
+	.form-button-title h3 {
+		font-size: 12px;
+	}
+}
+@media (max-width: 482px) {
+	.contacts h2 {
+		font-size: 20px;
+		
+	}
+	.office {
+		margin-right: 20px;
+	}
+	.office__title h3,
+	.head__title h3 {
+		font-size: 12px;
+	}
+	.office__text p,
+	.head__text p {
+		font-size: 10px;
+	}
+	.contact-mail h3 {
+		font-size: 14px;
+			}
+			.contact-mail a {
+				font-size: 16px;
+		
+			}
+			.contact-mail {
+				width: 150px;
+			}
+			.form-button {
+				width: 150px;
+			}
+			.button {
+				font-size: 10px;
+			}
+}
+
 
