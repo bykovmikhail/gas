@@ -1,15 +1,15 @@
 html {
 	box-sizing: border-box;
 	height: 100%;
- }
- 
- *,
- *::after,
- *::before {
+}
+
+*,
+*::after,
+*::before {
 	box-sizing: inherit;
- }
- 
- body {
+}
+
+body {
 	display: flex;
 	flex-direction: column;
 	font-family: "Roboto", sans-serif;
@@ -18,46 +18,43 @@ html {
 	height: 100%;
 	background-color: rgb(210, 209, 209);
 	color: #3f3f3f;
-	
- }
- @media (max-width: 1000px) {
+}
+@media (max-width: 1000px) {
 	body.noscroll {
 		overflow: hidden;
-	 }
- }
- 
- .container {
+	}
+}
+
+.container {
 	width: 100%;
 	/* max-width: 1000px; */
 	margin: 0 auto;
 	height: 100%;
 	/* padding: 0 15px; */
 	/* border: 2px solid red; */
- }
- .content {
+}
+.content {
 	/* padding: 20px 0; */
 	/* border: 2px solid rgb(0, 26, 255); */
- }
- @media (max-width: 320px) {
-	 .content {
-		 min-width: 170px;
-	 }
- }
- 
+}
+@media (max-width: 320px) {
+	.content {
+		min-width: 170px;
+	}
+}
 
- .top {
-	 display: flex;
-	 height: 300px;
-	 margin-bottom: 30px;
-	 
+.top {
+	display: flex;
+	height: 300px;
+	margin-bottom: 30px;
 }
 .top__title {
 	width: 70%;
 	background: url(/images/track-1.jpg) no-repeat center;
-	 background-size: cover;
-	
-	 display: flex;
-	 justify-content: center;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 .top__title h2 {
@@ -68,16 +65,14 @@ html {
 }
 .top__text {
 	width: 30%;
-	
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 5px;	
+	padding: 5px;
 	background-color: rgb(68, 67, 67);
 }
 .top__text p {
 	text-align: center;
 	color: white;
-	
 }
-

@@ -1,48 +1,49 @@
 .header {
 	flex: 0 0 auto;
-	background-color: #8b0707;
+	
+	background-color: #dfca0d;
 	margin-top: 75px;
- }
- @media (max-width: 602px) {
+}
+@media (max-width: 602px) {
 	.header {
 		margin-top: 50px;
 	}
- }
- @media (max-width:322px) {
+}
+@media (max-width: 322px) {
 	.header {
 		margin-top: 40px;
 	}
- }
- 
- .header h1 {
+}
+
+.header h1 {
 	text-align: center;
 	color: #fff;
 	font-size: 30px;
 	font-weight: bold;
- }
- @media (max-width: 480px) {
+}
+@media (max-width: 480px) {
 	.header h1 {
 		font-size: 20px;
 	}
- }
- @media (max-width: 320px) {
+}
+@media (max-width: 320px) {
 	.header h1 {
 		font-size: 15px;
 	}
- }
- 
- .main {
+}
+
+.main {
 	/* background-color: #fafafa; */
-	
+
 	flex: 1 0 auto;
- }
- 
- .footer {
+}
+
+.footer {
 	background-color: #212429;
 	flex: 0 0 auto;
 	padding: 5px;
- }
- .footer__contacts {
+}
+.footer__contacts {
 }
 .footer__company-name {
 }
@@ -63,12 +64,12 @@
 	.footer__office p {
 		font-size: 13px;
 	}
- }
- @media (max-width: 320px) {
+}
+@media (max-width: 320px) {
 	.footer__company-name p {
 		font-size: 11px;
 	}
 	.footer__office p {
 		font-size: 10px;
 	}
- }
+}

@@ -54,8 +54,6 @@
 	margin-bottom: 5px;
 	display: flex;
 	justify-content: center;
-	
-	
 }
 .product__image img {
 	width: 100%;
@@ -63,7 +61,6 @@
 	object-fit: contain;
 }
 .product__name {
-
 }
 .product__name p {
 	text-align: center;
@@ -101,7 +98,7 @@
 	width: 70px;
 	height: 70px;
 	margin-right: 10px;
-	
+
 	/* border: 2px solid red; */
 }
 .expertise__icon img {
@@ -133,13 +130,11 @@
 	.product__image {
 		width: 60px;
 		height: 60px;
-		
 	}
 	.product__name p {
 		text-align: center;
 		font-size: 15px;
 		width: 100px;
-		
 	}
 }
 /* @media (max-width: 602px) {
@@ -158,8 +153,6 @@
 	.expertise__row {
 		width: 100%;
 		padding: 5px;
-		
-		
 	}
 	.products__item {
 		padding: 10px;
@@ -167,14 +160,13 @@
 	.product__image {
 		width: 40px;
 		height: 40px;
-		
+
 		/* padding: 15px; */
 	}
 	.product__name p {
 		text-align: center;
 		font-size: 13px;
 		width: 100px;
-		
 	}
 	/* .expertise__icon {
 		width: 50px;

@@ -1,0 +1,75 @@
+.top__service {
+	border: 2px solid red;
+	
+}
+@media (max-width: 482px){
+	.top__service {
+		height: 270px;
+	}
+}
+
+
+
+.top__title-service {
+	background: url(/images/oil-station.jpg) center;
+
+}
+.top__text-service [
+	
+]
+
+
+
+.service {
+	
+	
+}
+.service__icon {
+	width: 60px;
+	height: 60px;
+	
+	
+}
+.service__icon img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.service__title {
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.service__title h3{
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	
+}
+
+.service__row {
+	display: flex;
+	justify-content: center;
+}
+
+
+.service__item {
+	border: 2px solid rgb(172, 172, 172);
+	width: 40%;
+	
+	
+}
+
+.cervice__text {
+	
+}
+.cervice__text p {
+	
+}
+@media (max-width: 482px){
+	.top__service {
+		width: 260px;
+	}
+}
