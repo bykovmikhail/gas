@@ -17,8 +17,6 @@ function renderPopup() {
   popup.appendChild(menu);
 }
 
-// Код для закрытия меню при нажатии на ссылку
-
 const links = Array.from(menu.children);
 
 links.forEach((link) => {
