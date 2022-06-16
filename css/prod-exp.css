@@ -5,7 +5,8 @@
 .top__title {
 }
 .prod__title {
-	background: url(https://kraski-net.ru/wp-content/uploads/2021/02/Benzin.jpg) no-repeat center;
+	/* background: url(https://kraski-net.ru/wp-content/uploads/2021/02/Benzin.jpg) no-repeat center; */
+	background: url(/images/Lab.png) no-repeat center;
 	background-size: cover;
 	display: flex;
 	justify-content: center;

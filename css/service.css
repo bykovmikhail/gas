@@ -1,34 +1,20 @@
 .top__service {
-	
-	
 }
-@media (max-width: 482px){
+@media (max-width: 482px) {
 	.top__service {
-		height: 270px;
+		height: 290px;
+		/* border: 10px solid red; */
 	}
 }
 
-
-
 .top__title-service {
 	background: url(/images/oil-station.jpg) center;
-
 }
-.top__text-service [
-	
-]
-
-
-
-.service {
-	
-	
+.top__text-service [] .service {
 }
 .service__icon {
 	width: 60px;
 	height: 60px;
-	
-	
 }
 .service__icon img {
 	width: 100%;
@@ -42,11 +28,10 @@
 	flex-direction: column;
 	align-items: center;
 }
-.service__title h3{
+.service__title h3 {
 	font-size: 25px;
 	font-weight: 700;
 	text-align: center;
-	
 }
 
 .service__row {
@@ -54,19 +39,14 @@
 	justify-content: center;
 }
 
-
 .service__item {
 	border: 2px solid rgb(172, 172, 172);
 	width: 40%;
-	
-	
 }
 
 .service__text {
-	
 }
 .service__text p {
-	
 }
 
 @media (max-width: 770px) {
@@ -81,8 +61,6 @@
 	.service__icon {
 		width: 40px;
 		height: 40px;
-		
-		
 	}
 }
 @media (max-width: 320px) {
@@ -90,64 +68,33 @@
 		font-size: 13px;
 	}
 	.service__text p {
-	font-size: 10px;
+		font-size: 10px;
 	}
-	
+
 	.service__icon {
 		width: 30px;
 		height: 30px;
-		
-		
 	}
 	.service__row {
 		display: block;
-		
 	}
 	.service__item {
-		
 		width: 90%;
 		margin: 0 auto 5px auto;
 	}
-		
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 482px){
+@media (max-width: 482px) {
 	.top__service {
 		height: 260px;
 	}
 }
-@media (max-width: 236px){
+@media (max-width: 236px) {
 	.top__service {
 		height: 270px;
 	}
 }
-@media (max-width: 200px){
+@media (max-width: 200px) {
 	.top__service {
 		height: 285px;
 	}
