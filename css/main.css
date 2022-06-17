@@ -27,15 +27,11 @@ body {
 
 .container {
 	width: 100%;
-	/* max-width: 1000px; */
+
 	margin: 0 auto;
 	height: 100%;
-	/* padding: 0 15px; */
-	/* border: 2px solid red; */
 }
 .content {
-	/* padding: 20px 0; */
-	/* border: 2px solid rgb(0, 26, 255); */
 }
 @media (max-width: 320px) {
 	.content {
@@ -47,11 +43,10 @@ body {
 	display: flex;
 	height: 300px;
 	margin-bottom: 30px;
-	/* border: 2px solid red; */
 }
 .top__title {
 	width: 70%;
-	background: url(/images/track-1.jpg) no-repeat center;
+	background: url(/images/truck-ks-\ 1.png) no-repeat center;
 	background-size: cover;
 
 	display: flex;
@@ -59,7 +54,6 @@ body {
 	align-items: center;
 }
 .top__title h2 {
-	/* color: white; */
 	color: rgb(234, 240, 58);
 	font-size: 35px;
 	font-weight: 700;

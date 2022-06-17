@@ -1,9 +1,3 @@
-/* background: url(https://financialtribune.com/sites/default/files/field/image/17january/05_opec_400_5.jpg) no-repeat center;
-
-*/
-
-.transport {
-}
 .transport__title {
 	background: url(https://financialtribune.com/sites/default/files/field/image/17january/05_opec_400_5.jpg) no-repeat
 		center;
@@ -14,12 +8,10 @@
 }
 
 .transportation {
-	/* border: 2px solid red; */
 	margin: 5px;
 	background-color: rgb(155, 153, 153);
 }
-.transportation__title {
-}
+
 .transportation__title h2 {
 	text-align: center;
 	font-size: 40px;
