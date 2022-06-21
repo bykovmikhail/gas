@@ -63,6 +63,8 @@
   color: rgb(241, 233, 125);
 }
 
+
+
 @media (max-width: 1000px) {
   .navbar__wrap .menu {
     display: none;
