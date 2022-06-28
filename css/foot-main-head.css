@@ -48,6 +48,7 @@
 
 .footer__office p {
 	text-align: center;
+	color: white;
 }
 @media (max-width: 480px) {
 	.footer__company-name p {
